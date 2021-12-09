@@ -66,7 +66,10 @@ export const RegisterScreen = () => {
                     <div className="auth__alert-error">{msgError}</div>
                 )
             }
-            <form onSubmit={ handleRegister }>
+            <form onSubmit=
+                { handleRegister }
+                className="animate__animated animate__fadeIn animate_faster"
+            >
                 <input
                     type="text"
                     placeholder="Name"
